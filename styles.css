@@ -87,14 +87,9 @@ a {
 .profile__links a {
   border: none;
   padding: 0;
-  font-size: 1.2rem;
-  letter-spacing: 0.08em;
-  text-transform: lowercase;
+  display: flex;
+  align-items: center;
   transition: color 0.2s ease;
-}
-
-.profile__links a:first-child {
-  font-size: 1.8rem;
 }
 
 .profile__links a:hover {
